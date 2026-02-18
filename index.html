@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>ZHI Chifa Oriental</title>
+    <meta name="description" content="Carta Digital ZHI Chifa Oriental" />
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Shojumaru&family=Montserrat:wght@400;600;700&family=Patrick+Hand&display=swap" rel="stylesheet">
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Tailwind Configuration -->
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              'chifa-red': '#D32F2F',
+              'chifa-wine': '#800000',
+              'chifa-black': '#1A1A1A',
+              'chifa-gold': '#D4AF37',
+              'chifa-bg': '#F9F9F9',
+            },
+            fontFamily: {
+              oriental: ['Shojumaru', 'cursive'],
+              body: ['Montserrat', 'sans-serif'],
+              hand: ['Patrick Hand', 'cursive'],
+            },
+            backgroundImage: {
+              'oriental-pattern': "url(\"data:image/svg+xml,%3Csvg width='20' height='20' viewBox='0 0 20 20' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0 0h20v2H0z' fill='%23D32F2F' fill-opacity='0.1'/%3E%3Cpath d='M0 10h20v2H0z' fill='%23D32F2F' fill-opacity='0.1'/%3E%3C/svg%3E\")",
+            }
+          }
+        }
+      }
+    </script>
+    <style>
+      /* Custom Scrollbar for horizontal nav */
+      .hide-scrollbar::-webkit-scrollbar {
+        display: none;
+      }
+      .hide-scrollbar {
+        -ms-overflow-style: none;
+        scrollbar-width: none;
+      }
+      body {
+        background-color: #F9F9F9;
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "lucide-react": "https://esm.sh/lucide-react@^0.574.0",
+    "react-dom/": "https://esm.sh/react-dom@^19.2.4/",
+    "react/": "https://esm.sh/react@^19.2.4/",
+    "react": "https://esm.sh/react@^19.2.4"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+  <body>
+    <div id="root"></div>
+  <script type="module" src="/index.tsx"></script>
+</body>
+</html>
