@@ -7,10 +7,10 @@ interface CategoryNavProps {
   onSelectCategory: (category: string) => void;
 }
 
-export const CategoryNav: React.FC<CategoryNavProps> = ({ 
-  categories, 
-  activeCategory, 
-  onSelectCategory 
+export const CategoryNav: React.FC<CategoryNavProps> = ({
+  categories,
+  activeCategory,
+  onSelectCategory
 }) => {
   const scrollRef = useRef<HTMLDivElement>(null);
 
@@ -27,30 +27,30 @@ export const CategoryNav: React.FC<CategoryNavProps> = ({
   }, [activeCategory]);
 
   return (
-    <nav className="sticky top-0 z-40 bg-chifa-bg/95 backdrop-blur-sm shadow-md border-b border-gray-200">
-      <div 
+    <nav className="sticky top-0 z-40 bg-chifa-black/95 backdrop-blur-sm shadow-md border-b border-chifa-red/20">
+      <div
         ref={scrollRef}
         className="flex overflow-x-auto py-3 px-2 hide-scrollbar gap-2"
       >
         {categories.map((cat, index) => {
-            // Extract just the main name before parenthesis for the button
-            const shortName = cat.categoria.split('(')[0].trim();
-            
-            return (
-                <button
-                key={index}
-                id={`nav-item-${cat.categoria}`}
-                onClick={() => onSelectCategory(cat.categoria)}
-                className={`
+          // Extract just the main name before parenthesis for the button
+          const shortName = cat.categoria.split('(')[0].trim();
+
+          return (
+            <button
+              key={index}
+              id={`nav-item-${cat.categoria}`}
+              onClick={() => onSelectCategory(cat.categoria)}
+              className={`
                     whitespace-nowrap px-4 py-2 rounded-full text-sm font-body font-bold transition-all duration-300
-                    ${activeCategory === cat.categoria 
-                    ? 'bg-chifa-red text-white shadow-md transform scale-105' 
-                    : 'bg-white text-gray-600 border border-gray-200'}
+                    ${activeCategory === cat.categoria
+                  ? 'bg-chifa-red text-white shadow-md shadow-red-900/40 transform scale-105'
+                  : 'bg-chifa-card text-gray-400 border border-gray-700 hover:border-chifa-red/50 hover:text-gray-200'}
                 `}
-                >
-                {shortName}
-                </button>
-            );
+            >
+              {shortName}
+            </button>
+          );
         })}
       </div>
     </nav>
