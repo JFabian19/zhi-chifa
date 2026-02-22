@@ -4,7 +4,8 @@ import { MenuCategory, MenuItem } from './types';
 // The sheet must be published to the web: File > Share > Publish to web
 // pubKey is the long key from the published URL (the part after /d/e/)
 function buildCsvUrl(pubKey: string, gid: string): string {
-    return `https://docs.google.com/spreadsheets/d/e/${pubKey}/pub?gid=${gid}&single=true&output=csv`;
+    const cacheBuster = `${Date.now()}_${Math.random().toString(36).slice(2)}`;
+    return `https://docs.google.com/spreadsheets/d/e/${pubKey}/pub?gid=${gid}&single=true&output=csv&_cb=${cacheBuster}`;
 }
 
 // Parse CSV text into rows of strings
