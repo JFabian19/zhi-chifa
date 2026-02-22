@@ -81,11 +81,14 @@ async function fetchCategorias(pubKey: string, gid: string): Promise<RawCategory
     const categories: RawCategory[] = [];
     for (let i = 1; i < rows.length; i++) {
         const row = rows[i];
-        if (row.length >= 2 && row[0]) {
+        const nombre = (row[0] || '').trim();
+        const orden = parseInt(row[1]);
+        // Skip empty rows, rows with very short names, or invalid order
+        if (nombre.length >= 2 && !isNaN(orden)) {
             categories.push({
-                nombre: row[0],
-                orden: parseInt(row[1]) || i,
-                imagen_url: row[2] || '',
+                nombre,
+                orden,
+                imagen_url: (row[2] || '').trim(),
             });
         }
     }
