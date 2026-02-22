@@ -8,39 +8,6 @@ export const MENU_DATA: MenuData = {
   },
   "menu": [
     {
-      "categoria": "Sopas (Soups)",
-      "items": [
-        { "nombre": "Sopa wantan especial", "precio": 15.00, "descripcion": "Caldo sustancioso con wantanes rellenos, carnes y verduras selectas." },
-        { "nombre": "Sopa de casa", "precio": 18.00, "descripcion": "Sopa tradicional de la casa con una mezcla secreta de ingredientes orientales." },
-        { "nombre": "Sopa sahofan especial", "precio": 18.00, "descripcion": "Sopa con fideos de arroz anchos (sahofan), carnes y verduras." },
-        { "nombre": "Sopa de pollo con verduras", "precio": 14.00, "descripcion": "Sopa ligera de pollo fresco con variedad de verduras de temporada." },
-        { "nombre": "Sopa siucau", "precio": 15.00, "descripcion": "Delicada sopa con dumplings de siu cau, verduras y caldo claro." },
-        { "nombre": "Sopa de pollo con fideos chino", "precio": 16.00, "descripcion": "Sopa reconfortante de pollo con fideos chinos tradicionales." },
-        { "nombre": "Sopa ramen", "precio": 23.00, "descripcion": "Sopa estilo oriental con fideos ramen, huevo, carnes y verduras." },
-        { "nombre": "Sopa de esparrago con pollo", "precio": 18.00, "descripcion": "Crema suave de espárragos con trozos de pollo y clara de huevo." },
-        { "nombre": "Sopa de pollo con hongo chino y kion", "precio": 17.00, "descripcion": "Sopa aromática de pollo con hongos chinos y un toque de kion." },
-        { "nombre": "Sopa fuchifu", "precio": 16.00, "descripcion": "Sopa ligera con huevo batido, verduras picadas y pollo." },
-        { "nombre": "Sopa pac pow", "precio": 16.00, "descripcion": "Sopa picante y ácida con verduras, huevo y pollo." },
-        { "nombre": "Sopa de verdura especial", "precio": 22.00, "descripcion": "Selección especial de verduras frescas en un caldo ligero." },
-        { "nombre": "Sopa wantan especial familiar", "precio": "00.00", "descripcion": "Porción familiar de nuestra sopa wantan especial." },
-        { "nombre": "Sopa de la casa familiar", "precio": "00.00", "descripcion": "Porción familiar de la sopa de la casa." },
-        { "nombre": "Sopa de pollo con verduras familiar", "precio": "00.00", "descripcion": "Porción familiar de la sopa de pollo con verduras." }
-      ]
-    },
-    {
-      "categoria": "Vegetariano (Vegetarian)",
-      "items": [
-        { "nombre": "Chaufa de verduras", "precio": 22.00, "descripcion": "Arroz frito al wok con una variedad de verduras frescas." },
-        { "nombre": "Chaufa de champiñones", "precio": 20.00, "descripcion": "Arroz frito al wok con champiñones frescos y huevo." },
-        { "nombre": "Saltado de verduras", "precio": 28.00, "descripcion": "Verduras de temporada salteadas al wok con salsa de soya." },
-        { "nombre": "Fideo chino con verduras (fansy)", "precio": 30.00, "descripcion": "Fideos chinos salteados con verduras frescas estilo fansy." },
-        { "nombre": "Tallarines con champiñones", "precio": 30.00, "descripcion": "Tallarines salteados con champiñones y verduras." },
-        { "nombre": "Tallarin con tomate", "precio": 30.00, "descripcion": "Tallarines salteados con tomate, cebolla y un toque oriental." },
-        { "nombre": "Tortilla de champiñones", "precio": 28.00, "descripcion": "Tortilla de huevo esponjosa con champiñones frescos." },
-        { "nombre": "Tortilla de verduras", "precio": 28.00, "descripcion": "Tortilla de huevo con una mezcla de verduras picadas." }
-      ]
-    },
-    {
       "categoria": "Menú 1",
       "descripcion": "Combos personales opción 1",
       "precio_general": 17.00,
@@ -118,7 +85,7 @@ export const MENU_DATA: MenuData = {
       ]
     },
     {
-      "categoria": "Arroz (Rice)",
+      "categoria": "Chaufas",
       "items": [
         { "nombre": "Chaufa salvaje", "precio": 23.00, "descripcion": "Arroz chaufa con carne de res, trozos de pollo y cerdo asado." },
         { "nombre": "Aeropuerto sansi", "precio": 27.00, "descripcion": "Mezcla de fideos y chaufa con carnes estilo Sansi." },
@@ -140,7 +107,7 @@ export const MENU_DATA: MenuData = {
       ]
     },
     {
-      "categoria": "Platos Especiales (Special Dishes)",
+      "categoria": "Platos Especiales",
       "items": [
         { "nombre": "Taypa a la plancha", "precio": 30.00, "descripcion": "Saltado mixto de carnes y verduras servido crepitando en plancha." },
         { "nombre": "Tipakay", "precio": 28.00, "descripcion": "Pollo arrebozado bañado en salsa dulce roja de tamarindo." },
@@ -161,61 +128,27 @@ export const MENU_DATA: MenuData = {
       ]
     },
     {
-      "categoria": "Tortillas (Omelettes)",
+      "categoria": "Sopas",
       "items": [
-        { "nombre": "Tortilla de pollo con verduras", "precio": 26.00, "descripcion": "Tortilla de huevo rellena de pollo y verduras." },
-        { "nombre": "Tortilla de langostinos con verduras", "precio": 30.00, "descripcion": "Tortilla de huevo especial con langostinos y verduras." },
-        { "nombre": "Tortilla especial", "precio": 35.00, "descripcion": "Gran tortilla con combinación de carnes y mariscos." },
-        { "nombre": "Tortilla de Chancho", "precio": 28.00, "descripcion": "Tortilla de huevo con trozos de chancho asado." },
-        { "nombre": "Tortilla de Carne", "precio": 28.00, "descripcion": "Tortilla de huevo con trozos de carne de res." }
+        { "nombre": "Sopa wantan especial", "precio": 15.00, "descripcion": "Caldo sustancioso con wantanes rellenos, carnes y verduras selectas." },
+        { "nombre": "Sopa de casa", "precio": 18.00, "descripcion": "Sopa tradicional de la casa con una mezcla secreta de ingredientes orientales." },
+        { "nombre": "Sopa sahofan especial", "precio": 18.00, "descripcion": "Sopa con fideos de arroz anchos (sahofan), carnes y verduras." },
+        { "nombre": "Sopa de pollo con verduras", "precio": 14.00, "descripcion": "Sopa ligera de pollo fresco con variedad de verduras de temporada." },
+        { "nombre": "Sopa siucau", "precio": 15.00, "descripcion": "Delicada sopa con dumplings de siu cau, verduras y caldo claro." },
+        { "nombre": "Sopa de pollo con fideos chino", "precio": 16.00, "descripcion": "Sopa reconfortante de pollo con fideos chinos tradicionales." },
+        { "nombre": "Sopa ramen", "precio": 23.00, "descripcion": "Sopa estilo oriental con fideos ramen, huevo, carnes y verduras." },
+        { "nombre": "Sopa de esparrago con pollo", "precio": 18.00, "descripcion": "Crema suave de espárragos con trozos de pollo y clara de huevo." },
+        { "nombre": "Sopa de pollo con hongo chino y kion", "precio": 17.00, "descripcion": "Sopa aromática de pollo con hongos chinos y un toque de kion." },
+        { "nombre": "Sopa fuchifu", "precio": 16.00, "descripcion": "Sopa ligera con huevo batido, verduras picadas y pollo." },
+        { "nombre": "Sopa pac pow", "precio": 16.00, "descripcion": "Sopa picante y ácida con verduras, huevo y pollo." },
+        { "nombre": "Sopa de verdura especial", "precio": 22.00, "descripcion": "Selección especial de verduras frescas en un caldo ligero." },
+        { "nombre": "Sopa wantan especial familiar", "precio": "00.00", "descripcion": "Porción familiar de nuestra sopa wantan especial." },
+        { "nombre": "Sopa de la casa familiar", "precio": "00.00", "descripcion": "Porción familiar de la sopa de la casa." },
+        { "nombre": "Sopa de pollo con verduras familiar", "precio": "00.00", "descripcion": "Porción familiar de la sopa de pollo con verduras." }
       ]
     },
     {
-      "categoria": "Chancho Asado (Roasted Pork)",
-      "items": [
-        { "nombre": "Chancho con verduras", "precio": 28.00, "descripcion": "Chancho asado salteado con verduras frescas." },
-        { "nombre": "Chancho al ajo", "precio": 28.00, "descripcion": "Chancho salteado en una aromática salsa de ajo." },
-        { "nombre": "Chancho con tausi", "precio": 28.00, "descripcion": "Chancho asado en salsa de frijol negro (tausi)." },
-        { "nombre": "Chancho con almendra", "precio": 30.00, "descripcion": "Chancho asado con almendras y verduras." },
-        { "nombre": "Chancho con piña (dulce)", "precio": 28.00, "descripcion": "Chancho con piña en salsa agridulce." },
-        { "nombre": "Chancho con tamarindo (dulce)", "precio": 28.00, "descripcion": "Chancho bañado en salsa dulce de tamarindo." },
-        { "nombre": "Chancho con durazno (dulce)", "precio": 28.00, "descripcion": "Chancho con duraznos en salsa dulce." },
-        { "nombre": "Chancho solo con nabo", "precio": 30.00, "descripcion": "Chancho asado acompañado de nabo encurtido." },
-        { "nombre": "Chancho al rocoto", "precio": 28.00, "descripcion": "Chancho asado picante en salsa de rocoto." }
-      ]
-    },
-    {
-      "categoria": "Langostinos (Lobster)",
-      "items": [
-        { "nombre": "Langostino con verduras", "precio": 30.00, "descripcion": "Langostinos frescos salteados con verduras." },
-        { "nombre": "Langostino al ajo", "precio": 30.00, "descripcion": "Langostinos salteados en salsa de ajo." },
-        { "nombre": "Langostino arrebozado", "precio": 33.00, "descripcion": "Langostinos fritos con una capa crujiente." },
-        { "nombre": "Langostino al rocoto", "precio": 30.00, "descripcion": "Langostinos picantes en salsa de rocoto." },
-        { "nombre": "Langostino con piña (dulce)", "precio": 30.00, "descripcion": "Langostinos con piña en salsa agridulce." },
-        { "nombre": "Langostino con durazno (dulce)", "precio": 30.00, "descripcion": "Langostinos con durazno en salsa dulce." }
-      ]
-    },
-    {
-      "categoria": "Carnes (Beef)",
-      "items": [
-        { "nombre": "Carne con verduras", "precio": 28.00, "descripcion": "Trozos de carne de res salteados con verduras." },
-        { "nombre": "Carne con almendra", "precio": 28.00, "descripcion": "Carne de res con almendras y verduras." },
-        { "nombre": "Carne con pimentón y tausi", "precio": 28.00, "descripcion": "Carne de res con pimentón en salsa tausi." }
-      ]
-    },
-    {
-      "categoria": "Alitas Fritas (Fried Chicken Wings)",
-      "items": [
-        { "nombre": "Alitas fritas con verduras", "precio": 28.00, "descripcion": "Alitas de pollo acompañadas de verduras salteadas." },
-        { "nombre": "Alitas fritas con tausi", "precio": 28.00, "descripcion": "Alitas de pollo bañadas en salsa tausi." },
-        { "nombre": "Alitas fritas al rocoto", "precio": 28.00, "descripcion": "Alitas de pollo picantes en salsa de rocoto." },
-        { "nombre": "Alitas fritas con piña (dulce)", "precio": 28.00, "descripcion": "Alitas con piña en salsa agridulce." },
-        { "nombre": "Alitas fritas con tamarindo (dulce)", "precio": 28.00, "descripcion": "Alitas bañadas en salsa de tamarindo." },
-        { "nombre": "Alitas fritas con durazno (dulce)", "precio": 28.00, "descripcion": "Alitas con durazno en salsa dulce." }
-      ]
-    },
-    {
-      "categoria": "Pollo (Chicken)",
+      "categoria": "Pollo",
       "items": [
         { "nombre": "Pollo con verduras", "precio": 26.00, "descripcion": "Pollo en trozos salteado con verduras variadas." },
         { "nombre": "Pollo al vapor", "precio": 28.00, "descripcion": "Pollo cocido al vapor, ligero y saludable." },
@@ -236,22 +169,66 @@ export const MENU_DATA: MenuData = {
       ]
     },
     {
-      "categoria": "Tallarines (Noodles)",
+      "categoria": "Chancho",
       "items": [
-        { "nombre": "Tallarin taypa", "precio": 30.00, "descripcion": "Tallarines con el saltado especial Taypa." },
-        { "nombre": "San si noodles", "precio": 28.00, "descripcion": "Tallarines finos estilo San Si con carnes." },
-        { "nombre": "Tallarin de chancho con verduras", "precio": 28.00, "descripcion": "Tallarines salteados con chancho asado y verduras." },
-        { "nombre": "Tallarin de carne con verduras", "precio": 28.00, "descripcion": "Tallarines salteados con carne de res y verduras." },
-        { "nombre": "Tallarin de langostinos con verduras", "precio": 33.00, "descripcion": "Tallarines salteados con langostinos y verduras." },
-        { "nombre": "Tallarin pollo en trozos con verdura", "precio": 30.00, "descripcion": "Tallarines con trozos grandes de pollo y verduras." },
-        { "nombre": "Fideos chino con pollo y verduras", "precio": 28.00, "descripcion": "Fideos chinos tradicionales con pollo y verduras." },
-        { "nombre": "Fideo chino con chancho y verdura", "precio": 29.00, "descripcion": "Fideos chinos tradicionales con chancho y verduras." },
-        { "nombre": "Fideo chino con langostino y verdu", "precio": 30.00, "descripcion": "Fideos chinos con langostinos y verduras." },
-        { "nombre": "Sahofan con pollo", "precio": 29.00, "descripcion": "Fideos anchos de arroz con pollo." },
-        { "nombre": "Sahofan con carne y verduras", "precio": 28.00, "descripcion": "Fideos anchos de arroz con carne y verduras." },
-        { "nombre": "Sahofan con langostino", "precio": 32.00, "descripcion": "Fideos anchos de arroz con langostinos." },
-        { "nombre": "Sahofan de chancho", "precio": 28.00, "descripcion": "Fideos anchos de arroz con chancho asado." }
+        { "nombre": "Chancho con verduras", "precio": 28.00, "descripcion": "Chancho asado salteado con verduras frescas." },
+        { "nombre": "Chancho al ajo", "precio": 28.00, "descripcion": "Chancho salteado en una aromática salsa de ajo." },
+        { "nombre": "Chancho con tausi", "precio": 28.00, "descripcion": "Chancho asado en salsa de frijol negro (tausi)." },
+        { "nombre": "Chancho con almendra", "precio": 30.00, "descripcion": "Chancho asado con almendras y verduras." },
+        { "nombre": "Chancho con piña (dulce)", "precio": 28.00, "descripcion": "Chancho con piña en salsa agridulce." },
+        { "nombre": "Chancho con tamarindo (dulce)", "precio": 28.00, "descripcion": "Chancho bañado en salsa dulce de tamarindo." },
+        { "nombre": "Chancho con durazno (dulce)", "precio": 28.00, "descripcion": "Chancho con duraznos en salsa dulce." },
+        { "nombre": "Chancho solo con nabo", "precio": 30.00, "descripcion": "Chancho asado acompañado de nabo encurtido." },
+        { "nombre": "Chancho al rocoto", "precio": 28.00, "descripcion": "Chancho asado picante en salsa de rocoto." }
       ]
+    },
+    {
+      "categoria": "Alitas",
+      "items": [
+        { "nombre": "Alitas fritas con verduras", "precio": 28.00, "descripcion": "Alitas de pollo acompañadas de verduras salteadas." },
+        { "nombre": "Alitas fritas con tausi", "precio": 28.00, "descripcion": "Alitas de pollo bañadas en salsa tausi." },
+        { "nombre": "Alitas fritas al rocoto", "precio": 28.00, "descripcion": "Alitas de pollo picantes en salsa de rocoto." },
+        { "nombre": "Alitas fritas con piña (dulce)", "precio": 28.00, "descripcion": "Alitas con piña en salsa agridulce." },
+        { "nombre": "Alitas fritas con tamarindo (dulce)", "precio": 28.00, "descripcion": "Alitas bañadas en salsa de tamarindo." },
+        { "nombre": "Alitas fritas con durazno (dulce)", "precio": 28.00, "descripcion": "Alitas con durazno en salsa dulce." }
+      ]
+    },
+    {
+      "categoria": "Langostino",
+      "items": [
+        { "nombre": "Langostino con verduras", "precio": 30.00, "descripcion": "Langostinos frescos salteados con verduras." },
+        { "nombre": "Langostino al ajo", "precio": 30.00, "descripcion": "Langostinos salteados en salsa de ajo." },
+        { "nombre": "Langostino arrebozado", "precio": 33.00, "descripcion": "Langostinos fritos con una capa crujiente." },
+        { "nombre": "Langostino al rocoto", "precio": 30.00, "descripcion": "Langostinos picantes en salsa de rocoto." },
+        { "nombre": "Langostino con piña (dulce)", "precio": 30.00, "descripcion": "Langostinos con piña en salsa agridulce." },
+        { "nombre": "Langostino con durazno (dulce)", "precio": 30.00, "descripcion": "Langostinos con durazno en salsa dulce." }
+      ]
+    },
+    {
+      "categoria": "Carne",
+      "items": [
+        { "nombre": "Carne con verduras", "precio": 28.00, "descripcion": "Trozos de carne de res salteados con verduras." },
+        { "nombre": "Carne con almendra", "precio": 28.00, "descripcion": "Carne de res con almendras y verduras." },
+        { "nombre": "Carne con pimentón y tausi", "precio": 28.00, "descripcion": "Carne de res con pimentón en salsa tausi." }
+      ]
+    },
+    {
+      "categoria": "Tortilla",
+      "items": [
+        { "nombre": "Tortilla de pollo con verduras", "precio": 26.00, "descripcion": "Tortilla de huevo rellena de pollo y verduras." },
+        { "nombre": "Tortilla de langostinos con verduras", "precio": 30.00, "descripcion": "Tortilla de huevo especial con langostinos y verduras." },
+        { "nombre": "Tortilla especial", "precio": 35.00, "descripcion": "Gran tortilla con combinación de carnes y mariscos." },
+        { "nombre": "Tortilla de Chancho", "precio": 28.00, "descripcion": "Tortilla de huevo con trozos de chancho asado." },
+        { "nombre": "Tortilla de Carne", "precio": 28.00, "descripcion": "Tortilla de huevo con trozos de carne de res." }
+      ]
+    },
+    {
+      "categoria": "Bebidas",
+      "items": []
+    },
+    {
+      "categoria": "Piqueos",
+      "items": []
     }
   ]
 };

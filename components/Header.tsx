@@ -26,18 +26,18 @@ export const Header: React.FC = () => {
       <div className="absolute top-0 left-0 w-full h-3 bg-oriental-pattern opacity-60"></div>
 
       <div className="relative z-10 flex flex-col items-center justify-center">
-        <div className="w-20 h-20 bg-chifa-black rounded-full flex items-center justify-center border-4 border-chifa-red shadow-lg shadow-red-900/30 mb-4">
-          <span className="text-white font-oriental text-3xl pt-2">{MENU_DATA.negocio.logo_text}</span>
+        <div className="w-24 h-24 rounded-full overflow-hidden border-4 border-chifa-red shadow-lg shadow-red-900/30 mb-4">
+          <img src="/logo.png" alt={MENU_DATA.negocio.nombre} className="w-full h-full object-cover" />
         </div>
 
-        <h1 className="text-3xl font-oriental text-chifa-gold mb-1">
+        <h1 className="text-4xl font-oriental text-chifa-gold mb-2 tracking-wide" style={{ textShadow: '0 0 20px rgba(212,175,55,0.3)' }}>
           {MENU_DATA.negocio.nombre}
         </h1>
 
-        <div className="flex items-center gap-2 text-chifa-red font-body font-semibold tracking-widest text-sm uppercase">
-          <span className="w-8 h-[1px] bg-chifa-gold"></span>
+        <div className="flex items-center gap-3 text-chifa-red font-elegant font-bold tracking-[0.25em] text-sm uppercase">
+          <span className="w-10 h-[1px] bg-gradient-to-r from-transparent to-chifa-gold"></span>
           <span>{MENU_DATA.negocio.identidad}</span>
-          <span className="w-8 h-[1px] bg-chifa-gold"></span>
+          <span className="w-10 h-[1px] bg-gradient-to-l from-transparent to-chifa-gold"></span>
         </div>
 
         <div className="mt-4 flex gap-4 text-xs text-gray-400 font-body">

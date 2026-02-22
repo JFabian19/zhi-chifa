@@ -43,11 +43,13 @@ export const MenuSection: React.FC<MenuSectionProps> = ({ category, id }) => {
         )}
       </div>
 
-      <div className="bg-chifa-card rounded-xl shadow-lg shadow-black/30 border border-gray-800 p-2 sm:p-4">
-        {category.items.map((item, index) => (
-          <MenuItem key={index} item={item} />
-        ))}
-      </div>
+      {category.items.length > 0 && (
+        <div className="bg-chifa-card rounded-xl shadow-lg shadow-black/30 border border-gray-800 p-2 sm:p-4">
+          {category.items.map((item, index) => (
+            <MenuItem key={index} item={item} />
+          ))}
+        </div>
+      )}
     </section>
   );
 };
