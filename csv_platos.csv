@@ -1,0 +1,157 @@
+categoria,nombre,descripcion,precio
+Menú 1,Chaufa con wantan frito,Mini chaufa acompañado de wantanes fritos crujientes.,17.00
+Menú 1,Tallarin con pollo con verduras,Tallarín saltado con trozos de pollo y verduras frescas.,17.00
+Menú 1,"Combinado (Tallarin con chaufa)",La mezcla perfecta de arroz chaufa y tallarín saltado.,17.00
+Menú 1,Combinado con verdura en trozo,Combinado de chaufa y tallarín con verduras en trozos grandes.,17.00
+Menú 1,Aeropuerto de pollo,Salteado de fideos y arroz con trozos de pollo.,17.00
+Menú 1,Aeropuerto de chancho,Salteado de fideos y arroz con trozos de chancho asado.,17.00
+Menú 1,Chijaukay con chaufa,Pollo chijaukay en salsa de ostión acompañado de chaufa.,17.00
+Menú 1,Pollo con verduras con chaufa,Pollo salteado con verduras servido con arroz chaufa.,17.00
+Menú 1,Chancho con verduras con chaufa,Chancho asado salteado con verduras y arroz chaufa.,17.00
+Menú 1,Carne con verduras con chaufa,Carne de res salteada con verduras y arroz chaufa.,17.00
+Menú 1,Alitas con verduras con chaufa,Alitas de pollo con verduras acompañadas de chaufa.,17.00
+Menú 1,Alitas con tausi con chaufa,Alitas en salsa de tausi servidas con arroz chaufa.,17.00
+Menú 1,Pollo con brocoli con chaufa,Pollo salteado con brócoli fresco y arroz chaufa.,17.00
+Menú 1,Kamlu wantan con chaufa,"Wantanes, piña, verduras y carnes en salsa agridulce con chaufa.",17.00
+Menú 1,Pollo con tamarindo con chaufa,Pollo en salsa de tamarindo dulce acompañado de chaufa.,17.00
+Menú 1,Chancho con tamarindo con chaufa,Chancho en salsa de tamarindo dulce con chaufa.,17.00
+Menú 1,Alitas con tamarindo con chaufa,Alitas en salsa de tamarindo dulce con chaufa.,17.00
+Menú 1,Alitas con piña con chaufa,Alitas con trozos de piña en salsa dulce y chaufa.,17.00
+Menú 1,Tortilla de pollo con chaufa,Tortilla de huevo con pollo servida sobre chaufa.,17.00
+Menú 1,Alitas con brocoli con chaufa,Alitas salteadas con brócoli y arroz chaufa.,17.00
+Menú 1,Chancho con brocoli con chaufa,Chancho asado con brócoli y arroz chaufa.,17.00
+Menú 2,Chicharron de alitas con chaufa,Alitas de pollo fritas crujientes con chaufa.,18.00
+Menú 2,Bisteck de pollo con chaufa,Filete de pollo a la plancha con arroz chaufa.,18.00
+Menú 2,Lomo saltado de carne o pollo con chaufa,Clásico lomo saltado servido junto a arroz chaufa.,18.00
+Menú 2,Carne con pimenton y tausi con chaufa,Carne con pimentón en salsa tausi y chaufa.,18.00
+Menú 2,Chijaukay 4 cosas con chaufa,Pollo chijaukay y 3 acompañamientos variados con chaufa.,18.00
+Menú 2,Tortilla de langostino con chaufa,Tortilla de huevo con langostinos y chaufa.,18.00
+Menú 2,Tortilla con chancho con chaufa,Tortilla de huevo con chancho asado y chaufa.,18.00
+Menú 2,Plato taypa con chaufa,"Saltado especial de varias carnes, verduras y chaufa.",18.00
+Menú 2,Tallarin taypa,Tallarines con saltado taypa de carnes y verduras.,18.00
+Menú 2,Tallarin de chancho con verduras,Tallarines salteados con chancho asado y verduras.,18.00
+Menú 2,Chancho con durazno con chaufa,Chancho con duraznos en salsa dulce y chaufa.,18.00
+Menú 2,Chancho al ajo con chaufa,Chancho asado en salsa de ajo con chaufa.,18.00
+Menú 2,Chancho con piña con chaufa,Chancho con piña en salsa agridulce y chaufa.,18.00
+Menú 2,Sahofan con pollo,Fideos anchos de arroz salteados con pollo.,18.00
+Menú 2,Sahofan con chancho,Fideos anchos de arroz salteados con chancho.,18.00
+Menú 2,Fideo chino con pollo con chaufa,Fideos chinos salteados con pollo y acompañados de chaufa.,18.00
+Menú 2,Fideo chino con chancho con chaufa,Fideos chinos salteados con chancho y acompañados de chaufa.,18.00
+Menú 2,Langostino con verduras con chaufa,Langostinos salteados con verduras frescas y chaufa.,18.00
+Menú 2,Langostino arrebozado con chaufa,Langostinos fritos arrebozados con chaufa.,18.00
+Menú 2,Langostino con piña con chaufa,Langostinos con piña en salsa dulce y chaufa.,18.00
+Menú 2,Langostino con durazno con chaufa,Langostinos con durazno en salsa dulce y chaufa.,18.00
+Menú 2,Chicharron de pollo con chaufa,Trozos de pollo frito crujiente con chaufa.,18.00
+Menú 2,Pollo limonkay con chaufa agridulce,Pollo arrebozado en salsa de limón con chaufa.,18.00
+Menú 2,Pollo al kión con chaufa,Pollo salteado con trozos de kion y chaufa.,18.00
+Menú 2,Pollo fonquinchonlong con chaufa,No estamos seguros.,18.00
+Menú 2,Pollo con pimenton y tausi con chaufa,Pollo con pimentón y salsa tausi servido con chaufa.,18.00
+Menú 2,Pollo enrollado con verduras con chaufa,Pollo enrollado salteado con verduras y chaufa.,18.00
+Menú 2,Pollo enrollado sin verduras,Pollo enrollado servido solo con chaufa.,18.00
+Menú 2,Pollo al curry con chaufa,Pollo en salsa de curry aromática con chaufa.,18.00
+Menú 2,Pollo con yuyo con chaufa,Pollo salteado con algas (yuyo) y chaufa.,18.00
+Menú 2,Pollo al ajo con chaufa,Pollo en salsa de ajo intenso con chaufa.,18.00
+Menú 2,Pollo al rocoto con chaufa,Pollo picante en salsa de rocoto con chaufa.,18.00
+Menú 2,Pollo en salsa de ostion con chaufa,Pollo bañado en salsa de ostión con chaufa.,18.00
+Menú 2,Pollo con champiñones con chaufa,Pollo salteado con champiñones y chaufa.,18.00
+Menú 2,Pollo con almendras con chaufa,Pollo salteado con almendras crujientes y chaufa.,18.00
+Menú 2,Pollo con piña con chaufa,Pollo con piña en salsa agridulce y chaufa.,18.00
+Menú 2,Pollo apanado con ajonjolí con chaufa dulce,Pollo apanado cubierto de ajonjolí con salsa dulce.,18.00
+Menú 2,Pollo tipakay con chaufa,Pollo arrebozado en salsa agridulce roja y chaufa.,18.00
+Menú 2,Pollo 5 sabores con chaufa,Pollo con mezcla de 5 especias orientales y chaufa.,18.00
+Menú 2,Pollo con durazno con chaufa,Pollo con durazno en salsa dulce y chaufa.,18.00
+Menú 2,Pollo enrollado dulce,Pollo enrollado bañado en una salsa dulce especial.,18.00
+Menú 2,Chijaukay con verduras cons chaufa,Pollo chijaukay salteado con verduras y chaufa.,18.00
+Chaufas,Chaufa salvaje,"Arroz chaufa con carne de res, trozos de pollo y cerdo asado.",23.00
+Chaufas,Aeropuerto sansi,Mezcla de fideos y chaufa con carnes estilo Sansi.,27.00
+Chaufas,"Arroz chaufa especial (san si)",Chaufa especial con variedad de carnes finamente picadas.,25.00
+Chaufas,Arroz chaufa especial,Nuestro chaufa clásico con más carnes y sabor.,23.00
+Chaufas,Arroz chaufa con pollo,Arroz frito con trozos de pollo y cebollita china.,23.00
+Chaufas,Arroz chaufa con chancho,Arroz frito con trozos de chancho asado.,23.00
+Chaufas,Arroz chaufa con carne,Arroz frito con trozos de carne de res.,23.00
+Chaufas,Arroz chaufa de pollo con champiño,Variante del chaufa de pollo con champiñones.,23.00
+Chaufas,Arroz chaufa con langostinos,Arroz frito salteado con langostinos frescos.,26.00
+Chaufas,Arroz chaufa Amazonico,Chaufa con ingredientes de la selva (cecina/chorizo).,25.00
+Chaufas,Arroz chaufa especial familiar,Porción familiar de nuestro chaufa especial.,00.00
+Chaufas,Arroz chaufa de pollo familiar,Porción familiar del chaufa de pollo.,00.00
+Chaufas,Porción de arroz blanco,Porción extra de arroz blanco graneado.,00.00
+Chaufas,Porción de arroz chaufa con pollo,Porción adicional de chaufa de pollo.,00.00
+Chaufas,Porción de arroz chaufa con chancho,Porción adicional de chaufa de chancho.,00.00
+Chaufas,Porción de arroz chaufa especial,Porción adicional de chaufa especial.,00.00
+Chaufas,Porción de aeropuerto,Porción adicional de aeropuerto.,00.00
+Platos Especiales,Taypa a la plancha,Saltado mixto de carnes y verduras servido crepitando en plancha.,30.00
+Platos Especiales,Tipakay,Pollo arrebozado bañado en salsa dulce roja de tamarindo.,28.00
+Platos Especiales,Limónkay,Pollo arrebozado crujiente bañado en salsa de limón.,28.00
+Platos Especiales,Fonqui chonlong,No estamos seguros.,29.00
+Platos Especiales,Pollo enrollado en salsa blanca,Rodajas de pollo enrollado con salsa blanca cremosa.,28.00
+Platos Especiales,Langostino con tausi a la plancha,Langostinos al tausi servidos en plancha caliente.,32.00
+Platos Especiales,Bisctek de pollo,Bistec de pechuga de pollo con papas y arroz.,26.00
+Platos Especiales,Piqueo mixto especial,Surtido de bocaditos y carnes orientales para compartir.,28.00
+Platos Especiales,Lomo saltado de carne o pollo,Saltado peruano-oriental de lomo o pollo con papas fritas.,28.00
+Platos Especiales,Chijaukay,Pollo arrebozado bañado en salsa salada de ostión y sésamo.,28.00
+Platos Especiales,Chijaukay 4 cosas,Chijaukay acompañado de 4 guarniciones o variedades.,30.00
+Platos Especiales,Chicharrón de alitas,Alitas de pollo fritas muy crujientes.,28.00
+Platos Especiales,Frijolito chino con chancho y asado,Saltado de frejol chino con chancho asado.,28.00
+Platos Especiales,"Frijolito con pollo (Chicken with chinese beans)",Saltado ligero de frejol chino con tiras de pollo.,26.00
+Platos Especiales,"Frijolito con pollo (Lobster with chinese beans)",Saltado de frejol chino con langostinos.,00.00
+Platos Especiales,"Frijolito con pollo (Meat with chinese beans)",Saltado de frejol chino con carne de res.,00.00
+Sopas,Sopa wantan especial,"Caldo sustancioso con wantanes rellenos, carnes y verduras selectas.",15.00
+Sopas,Sopa de casa,Sopa tradicional de la casa con una mezcla secreta de ingredientes orientales.,18.00
+Sopas,Sopa sahofan especial,"Sopa con fideos de arroz anchos (sahofan), carnes y verduras.",18.00
+Sopas,Sopa de pollo con verduras,Sopa ligera de pollo fresco con variedad de verduras de temporada.,14.00
+Sopas,Sopa siucau,"Delicada sopa con dumplings de siu cau, verduras y caldo claro.",15.00
+Sopas,Sopa de pollo con fideos chino,Sopa reconfortante de pollo con fideos chinos tradicionales.,16.00
+Sopas,Sopa ramen,"Sopa estilo oriental con fideos ramen, huevo, carnes y verduras.",23.00
+Sopas,Sopa de esparrago con pollo,Crema suave de espárragos con trozos de pollo y clara de huevo.,18.00
+Sopas,Sopa de pollo con hongo chino y kion,Sopa aromática de pollo con hongos chinos y un toque de kion.,17.00
+Sopas,Sopa fuchifu,"Sopa ligera con huevo batido, verduras picadas y pollo.",16.00
+Sopas,Sopa pac pow,"Sopa picante y ácida con verduras, huevo y pollo.",16.00
+Sopas,Sopa de verdura especial,Selección especial de verduras frescas en un caldo ligero.,22.00
+Sopas,Sopa wantan especial familiar,Porción familiar de nuestra sopa wantan especial.,00.00
+Sopas,Sopa de la casa familiar,Porción familiar de la sopa de la casa.,00.00
+Sopas,Sopa de pollo con verduras familiar,Porción familiar de la sopa de pollo con verduras.,00.00
+Pollo,Pollo con verduras,Pollo en trozos salteado con verduras variadas.,26.00
+Pollo,Pollo al vapor,"Pollo cocido al vapor, ligero y saludable.",28.00
+Pollo,Pollo al ajo,Pollo salteado en salsa intensa de ajo.,28.00
+Pollo,Pollo con tausi,Pollo en trozos con salsa de frijol negro (tausi).,28.00
+Pollo,Pollo en salsa de ostión,Pollo bañado en salsa de ostión.,28.00
+Pollo,Pollo con almendra,Pollo salteado con almendras y verduras.,28.00
+Pollo,Pollo con champiñones,Pollo salteado con champiñones frescos.,28.00
+Pollo,Pollo al curry,Pollo cocinado en salsa de curry oriental.,28.00
+Pollo,Pollo enrollado con verduras,Pollo enrollado servido con verduras salteadas.,28.00
+Pollo,Pollo con yuyo,Pollo salteado con yuyo (algas) y verduras.,28.00
+Pollo,Pollo enrollado (dulce),Pollo enrollado en salsa dulce.,26.00
+Pollo,Pollo con piña (dulce),Pollo con piña en salsa agridulce.,28.00
+Pollo,Pollo apanado con ajonjolí (dulce),Pollo empanizado con ajonjolí y salsa dulce.,26.00
+Pollo,Pollo con durazno (dulce),Pollo con durazno en salsa dulce.,28.00
+Pollo,Pollo 5 sabores (dulce),Pollo preparado con la tradicional mezcla de 5 sabores.,28.00
+Pollo,Pollo con tamarindo (dulce),Pollo en salsa de tamarindo agridulce.,28.00
+Chancho,Chancho con verduras,Chancho asado salteado con verduras frescas.,28.00
+Chancho,Chancho al ajo,Chancho salteado en una aromática salsa de ajo.,28.00
+Chancho,Chancho con tausi,Chancho asado en salsa de frijol negro (tausi).,28.00
+Chancho,Chancho con almendra,Chancho asado con almendras y verduras.,30.00
+Chancho,Chancho con piña (dulce),Chancho con piña en salsa agridulce.,28.00
+Chancho,Chancho con tamarindo (dulce),Chancho bañado en salsa dulce de tamarindo.,28.00
+Chancho,Chancho con durazno (dulce),Chancho con duraznos en salsa dulce.,28.00
+Chancho,Chancho solo con nabo,Chancho asado acompañado de nabo encurtido.,30.00
+Chancho,Chancho al rocoto,Chancho asado picante en salsa de rocoto.,28.00
+Alitas,Alitas fritas con verduras,Alitas de pollo acompañadas de verduras salteadas.,28.00
+Alitas,Alitas fritas con tausi,Alitas de pollo bañadas en salsa tausi.,28.00
+Alitas,Alitas fritas al rocoto,Alitas de pollo picantes en salsa de rocoto.,28.00
+Alitas,Alitas fritas con piña (dulce),Alitas con piña en salsa agridulce.,28.00
+Alitas,Alitas fritas con tamarindo (dulce),Alitas bañadas en salsa de tamarindo.,28.00
+Alitas,Alitas fritas con durazno (dulce),Alitas con durazno en salsa dulce.,28.00
+Langostino,Langostino con verduras,Langostinos frescos salteados con verduras.,30.00
+Langostino,Langostino al ajo,Langostinos salteados en salsa de ajo.,30.00
+Langostino,Langostino arrebozado,Langostinos fritos con una capa crujiente.,33.00
+Langostino,Langostino al rocoto,Langostinos picantes en salsa de rocoto.,30.00
+Langostino,Langostino con piña (dulce),Langostinos con piña en salsa agridulce.,30.00
+Langostino,Langostino con durazno (dulce),Langostinos con durazno en salsa dulce.,30.00
+Carne,Carne con verduras,Trozos de carne de res salteados con verduras.,28.00
+Carne,Carne con almendra,Carne de res con almendras y verduras.,28.00
+Carne,Carne con pimentón y tausi,Carne de res con pimentón en salsa tausi.,28.00
+Tortilla,Tortilla de pollo con verduras,Tortilla de huevo rellena de pollo y verduras.,26.00
+Tortilla,Tortilla de langostinos con verduras,Tortilla de huevo especial con langostinos y verduras.,30.00
+Tortilla,Tortilla especial,Gran tortilla con combinación de carnes y mariscos.,35.00
+Tortilla,Tortilla de Chancho,Tortilla de huevo con trozos de chancho asado.,28.00
+Tortilla,Tortilla de Carne,Tortilla de huevo con trozos de carne de res.,28.00

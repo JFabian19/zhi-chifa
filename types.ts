@@ -8,6 +8,7 @@ export interface MenuCategory {
   categoria: string;
   descripcion?: string;
   precio_general?: number;
+  imagen?: string;
   items: MenuItem[];
 }
 

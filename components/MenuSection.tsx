@@ -26,9 +26,20 @@ export const MenuSection: React.FC<MenuSectionProps> = ({ category, id }) => {
         )}
         <div className="w-16 h-1 bg-chifa-red mt-2 rounded-full opacity-80"></div>
 
-        <div className="w-full aspect-[3/2] bg-chifa-card mt-4 rounded-lg flex items-center justify-center border-2 border-dashed border-gray-600">
-          <span className="text-gray-500 font-body font-medium">aca va imagen</span>
-        </div>
+        {category.imagen ? (
+          <div className="w-full aspect-[3/2] mt-4 rounded-lg overflow-hidden">
+            <img
+              src={category.imagen}
+              alt={titleMain}
+              className="w-full h-full object-cover"
+              loading="lazy"
+            />
+          </div>
+        ) : (
+          <div className="w-full aspect-[3/2] bg-chifa-card mt-4 rounded-lg flex items-center justify-center border-2 border-dashed border-gray-600">
+            <span className="text-gray-500 font-body font-medium">aca va imagen</span>
+          </div>
+        )}
 
         {category.descripcion && (
           <p className="text-gray-400 text-sm mt-2 text-center max-w-xs font-body italic">
