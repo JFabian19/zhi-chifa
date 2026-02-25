@@ -40,10 +40,16 @@ export const Header: React.FC = () => {
           <span className="w-10 h-[1px] bg-gradient-to-l from-transparent to-chifa-gold"></span>
         </div>
 
-        <div className="mt-4 flex gap-4 text-xs text-gray-400 font-body">
-          <div className="flex items-center gap-1">
+        <div className="mt-4 flex flex-col items-center gap-2">
+          <div className="flex items-center gap-1 text-xs text-gray-400 font-body">
             <UtensilsCrossed size={14} className="text-chifa-gold" />
             <span>Auténtico sabor</span>
+          </div>
+          <div className="bg-chifa-red/10 border border-chifa-red/30 px-3 py-1.5 rounded-md mt-1">
+            <p className="text-chifa-gold text-xs font-body font-medium flex items-center gap-1.5">
+              <span className="text-chifa-red">*</span>
+              Los precios no incluyen costo de delivery
+            </p>
           </div>
         </div>
 

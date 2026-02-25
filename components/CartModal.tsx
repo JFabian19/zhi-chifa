@@ -126,7 +126,13 @@ export const CartModal: React.FC = () => {
 
                 {/* Footer with total and send */}
                 {items.length > 0 && (
-                    <div className="p-4 border-t border-gray-700 space-y-3">
+                    <div className="bg-chifa-card p-4 border-t border-gray-800 space-y-3">
+                        <div className="bg-chifa-red/10 border border-chifa-red/30 px-3 py-2 rounded-lg mb-2 flex justify-center">
+                            <p className="text-chifa-gold text-xs font-body font-medium flex items-center gap-1.5">
+                                <span className="text-chifa-red text-sm">*</span>
+                                Los precios no incluyen costo de delivery
+                            </p>
+                        </div>
                         <div className="flex justify-between items-center">
                             <span className="text-gray-400 font-body font-bold text-sm">Total</span>
                             <span className="text-chifa-gold font-hand font-bold text-2xl">
